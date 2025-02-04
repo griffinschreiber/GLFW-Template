@@ -24,6 +24,9 @@ include/stamp-h1
 *.a
 .deps
 
+# Ignore cglm (managed as a dependency)
+cglm
+
 # Ignore sensitive files
 git-token.txt
 
