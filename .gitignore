@@ -21,6 +21,7 @@ include/stamp-h1
 
 # Ignore build artifacts
 *.o
+*.a
 .deps
 
 # Ignore sensitive files
