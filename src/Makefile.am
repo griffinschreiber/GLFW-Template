@@ -6,7 +6,8 @@ AM_CPPFLAGS = -I$(top_srcdir)/include
 
 AM_CFLAGS = -Wall -Werror
 
-OBJDIR = $(top_builddir)obj
+bin_PROGRAMS = $(top_builddir)/bin/template
 
-bin_PROGRAMS = $(top_builddir)/bin/opengl-template
-__top_builddir__bin_funlang_SOURCES = main.c
+__top_builddir__bin_template_LDADD = -lGL -lglfw -Llib/libcglm.a
+
+__top_builddir__bin_template_SOURCES = main.c
