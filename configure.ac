@@ -1,4 +1,4 @@
-AC_INIT([opengl-template], [1.0], [griffinschreiber@gmail.com])
+AC_INIT([opengltemplate], [1.0], [griffinschreiber@gmail.com])
 AC_PREREQ([2.71])
 AC_CONFIG_AUX_DIR([build-aux])
 AM_INIT_AUTOMAKE([-Wall -Werror foreign])
